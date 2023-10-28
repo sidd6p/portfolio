@@ -1,5 +1,6 @@
 import streamlit as st
 import base64
+import os
 
 st.set_page_config(
     page_title="Resume",
@@ -13,4 +14,6 @@ def show_pdf(file_path):
     pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="800" height="800" type="application/pdf"></iframe>'
     st.markdown(pdf_display, unsafe_allow_html=True)
 
-show_pdf(".\src\siddhartha_resume.pdf")
+file_path = os.path.abspath("src/siddhartha_resume.pdf")
+
+show_pdf(file_path)

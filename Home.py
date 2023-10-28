@@ -6,4 +6,4 @@ st.set_page_config(
     page_icon="👋"
 )
 
-st.write("Hello I am Siddhartha")
+st.write("Hello I am Siddhartha Purwar")
