@@ -1,0 +1,95 @@
+[
+    {
+        "project_name": "Store-API",
+        "technology_used": "Python, Flask, VS Code, RestAPI, Insomnia, Swagger",
+        "code_link": "https://github.com/sidd6p/Store-API",
+        "description": [
+            "Developed a RESTful API for store management using Flask framework.",
+            "Utilized libraries such as smorest and JWT for authentication.",
+            "Implemented email functionality using Mailgun API.",
+            "Used Render for deployment."
+        ],
+        "features": {
+            "User": {
+                "Registration": true,
+                "Login": true,
+                "Logout": true
+            },
+            "Store": {
+                "Create": true,
+                "Delete": true
+            },
+            "Item": {
+                "Create": true,
+                "Update": true,
+                "Delete": true
+            },
+            "Tag": {
+                "Create": true,
+                "Delete": true
+            },
+            "Link": {
+                "Unlink": true
+            }
+        }
+    },
+    {
+        "project_name": "Blog-Platform",
+        "technology_used": "JavaScript, Node.js, Express, MongoDB, React, Redux, Visual Studio Code",
+        "code_link": "https://github.com/example-user/Blog-Platform",
+        "description": [
+            "Built a full-stack blog platform using MERN stack (MongoDB, Express, React, Node.js).",
+            "Implemented user authentication and authorization using JWT tokens.",
+            "Developed interactive user interfaces with React and Redux.",
+            "Designed and implemented RESTful API endpoints for managing blog posts and user profiles."
+        ],
+        "features": {
+            "User": {
+                "Registration": true,
+                "Login": true,
+                "Logout": true
+            },
+            "Blog Post": {
+                "Create": true,
+                "Update": true,
+                "Delete": true
+            },
+            "User Profile": {
+                "View": true,
+                "Edit": true
+            }
+        }
+    },
+    {
+        "project_name": "E-commerce Website",
+        "technology_used": "PHP, Laravel, MySQL, HTML, CSS, JavaScript, PhpStorm",
+        "code_link": "https://github.com/example-user/E-commerce-Website",
+        "description": [
+            "Developed a dynamic e-commerce website using Laravel PHP framework.",
+            "Implemented product catalog, user authentication, and shopping cart functionality.",
+            "Integrated secure payment gateways for online transactions.",
+            "Designed responsive and user-friendly front-end interfaces using HTML, CSS, and JavaScript."
+        ],
+        "features": {
+            "User": {
+                "Registration": true,
+                "Login": true,
+                "Logout": true
+            },
+            "Product Catalog": {
+                "View": true,
+                "Search": true,
+                "Filter": true
+            },
+            "Shopping Cart": {
+                "Add Item": true,
+                "Remove Item": true,
+                "Update Quantity": true
+            },
+            "Checkout": {
+                "Address": true,
+                "Payment": true
+            }
+        }
+    }
+]
