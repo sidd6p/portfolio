@@ -116,6 +116,31 @@
                 "Used text2emotion for audio sentiment analysis": true
             }
         }
-    }
-    
+    },
+    {
+        "project_name": "Image-Classification-Template",
+        "code_link": "https://github.com/sidd6p/AWS-Image-Classification",
+        "technology_used": "Python (Programming Language), Deep Learning, AWS SageMaker, PyTorch",
+        "concepts": "Image Classification, Neural Network, Hyperparameters Tuning",
+        "description": [
+            "Developed an image classification template for the Amazon AI Programming with Python Nanodegree on Udacity.",
+            "Implemented two modes of usage: Command Line Utility and Jupyter Notebook.",
+            "Command Line Utility allows users to modify hyperparameters, data directory, and more via command line arguments.",
+            "Jupyter Notebook provides a user-friendly view of the model and aids in understanding the functions and operations."
+        ],
+        "features": {
+            "Command Line Utility": {
+                "Options": {
+                    "Path to the directory containing the training data.": true,
+                    "NN architecture to be used for image classification.": true,
+                    "Learning rate for the neural network training.": true,
+                    "Number of hidden units in the neural network.": true,
+                    "Number of training epochs for the neural network.": true,
+                    "Flag to enable or disable GPU usage for training.": true,
+                    "Path to the directory for saving training checkpoints.": true
+                }
+            },
+            "Jupyter Notebook": true
+        }
+    }    
 ]
